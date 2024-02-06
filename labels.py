@@ -1,0 +1,18 @@
+daftar_kabupaten = [
+    "BANDUNG", "BANDUNG BARAT", "BANGKALAN", "BANJARNEGARA", "BANTUL", "BANYUMAS", "BANYUWANGI",
+    "BATANG", "BLITAR", "BLORA", "BOGOR", "BONDOWOSO", "BOYOLALI", "BREBES", "CIAMIS", "CIANJUR",
+    "CILACAP", "DEMAK", "GARUT", "GRESIK", "GROBOGAN", "GUNUNG KIDUL", "INDRAMAYU", "JEMBER", "JEPARA",
+    "JOMBANG", "KARANGANYAR", "KARAWANG", "KEBUMEN", "KENDAL", "KOTA MALANG", "KUNINGAN", "LAMONGAN",
+    "LAMPUNG SELATAN", "LAMPUNG TENGAH", "LAMPUNG TIMUR", "LEBAK", "LUMAJANG", "MADIUN", "MAGELANG",
+    "MAJALENGKA", "MALANG", "MOJOKERTO", "NGANJUK", "NGAWI", "PACITAN", "PAMEKASAN", "PANDEGLANG",
+    "PANGANDARAN", "PATI", "PEKALONGAN", "PEMALANG", "PESAWARAN", "PONOROGO", "PROBOLINGGO", "PURWAKARTA",
+    "SAMPANG", "SIDOARJO", "SRAGEN", "SUBANG", "SUKABUMI", "SUMEDANG", "SUMENEP", "TASIKMALAYA", "TEGAL",
+    "TRENGGALEK", "TUBAN", "TULUNGAGUNG", "WONOGIRI", "WONOSOBO"
+]
+
+# Menambahkan label angka dari 0 hingga 69
+daftar_dengan_label = list(enumerate(daftar_kabupaten))
+
+# Menampilkan daftar dengan label
+for label, kabupaten in daftar_dengan_label:
+    print(f"{label}. {kabupaten}")
